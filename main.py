@@ -36,3 +36,7 @@ def detect_bird (model, labels, image):
 
 
   return class_name[2:], confidence_score
+
+
+
+print(detect_bird("/content/keras_model.h5", "/content/labels.txt", "/content/голубь.jpg"))
