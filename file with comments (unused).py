@@ -1,4 +1,5 @@
-
+//Извлечение файлов из ZIP - !unzip ./converted_keras.zip
+//Установка необходимых библиотек - !pip install -q tf-keras==2.19.0 h5py==3.11.0
 
 
 import tf_keras as keras  # Импортируем tf-keras - это совместимая версия Keras для работы с .h5 моделями
